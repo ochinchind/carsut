@@ -14,6 +14,10 @@ html {
     background-color: #D3CFCF;
 }
 
+.dropdown-bg {
+    background-color: #d3d3d3;
+}
+
 .gap-bottom-150 {
     padding-bottom: 150px;
 }
@@ -32,6 +36,10 @@ html {
 
 .gap-bottom-50 {
     padding-bottom: 50px;
+}
+
+.gap-bottom-200 {
+    padding-bottom: 200px;
 }
 
 .main-brands {
@@ -61,6 +69,7 @@ html {
 .wp-block-image__wrapper {
     display: block;
     position: relative;
+    height: 500px;
 }
 
 .wp-block-image__content {
@@ -125,4 +134,23 @@ figure img {
     width:30px;
     height:30px;
     border:1px solid #000;
+}
+
+.main-header-mobile {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .main-header-web {
+        display: none!important;
+    }
+
+    .main-header-mobile {
+        display: block;
+    }
+}
+
+.footer-phone {
+    font-size: 2em;
+    font-weight: 600;
 }
