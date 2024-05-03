@@ -69,7 +69,6 @@ html {
 .wp-block-image__wrapper {
     display: block;
     position: relative;
-    height: 500px;
 }
 
 .wp-block-image__content {
